@@ -1,0 +1,33 @@
+{
+  "name": "repo-primer",
+  "version": "1.0.0",
+  "description": "Build a quick repo tour with architecture, entry points, and likely edit paths",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": ["repo", "architecture", "onboarding", "codebase", "tour"],
+  "parameters": {
+    "focus": {
+      "type": "string",
+      "description": "Area of the codebase to focus on first",
+      "required": false,
+      "default": "architecture and likely edit points"
+    }
+  },
+  "entry_command": "scan",
+  "examples": [
+    {
+      "title": "Auth flow tour",
+      "prompt": "/repo-primer:scan authentication and request routing",
+      "parameters": { "focus": "authentication and request routing" }
+    },
+    {
+      "title": "Tests and entry points",
+      "prompt": "/repo-primer:scan tests and app entry points",
+      "parameters": { "focus": "tests and app entry points" }
+    }
+  ]
+}

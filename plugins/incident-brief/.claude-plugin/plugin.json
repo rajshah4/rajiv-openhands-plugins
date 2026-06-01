@@ -1,0 +1,33 @@
+{
+  "name": "incident-brief",
+  "version": "1.0.0",
+  "description": "Turn raw issue context into an operator-friendly incident brief and next-step plan",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": ["incident", "ops", "triage", "outage", "status"],
+  "parameters": {
+    "context": {
+      "type": "string",
+      "description": "Short incident description or issue context",
+      "required": true,
+      "default": "service issue under investigation"
+    }
+  },
+  "entry_command": "brief",
+  "examples": [
+    {
+      "title": "API outage brief",
+      "prompt": "/incident-brief:brief API 500s after latest deploy",
+      "parameters": { "context": "API 500s after latest deploy" }
+    },
+    {
+      "title": "Plugin rollout issue",
+      "prompt": "/incident-brief:brief plugins page loads but launch fails",
+      "parameters": { "context": "plugins page loads but launch fails" }
+    }
+  ]
+}

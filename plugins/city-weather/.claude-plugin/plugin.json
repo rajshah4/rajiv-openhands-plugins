@@ -1,0 +1,39 @@
+{
+  "name": "city-weather",
+  "version": "1.0.0",
+  "description": "Get current weather, time, and precipitation forecast for any city",
+  "author": {
+    "name": "JP Shackelford",
+    "email": "jpshackelford@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": ["weather", "time", "forecast", "temperature", "precipitation"],
+  "parameters": {
+    "city": {
+      "type": "string",
+      "description": "City name to get weather for (e.g., Tokyo, New York, London)",
+      "required": true,
+      "default": "New York"
+    }
+  },
+  "entry_command": "now",
+  "examples": [
+    {
+      "title": "Tokyo Weather",
+      "prompt": "/city-weather:now Tokyo",
+      "parameters": { "city": "Tokyo" }
+    },
+    {
+      "title": "New York Weather",
+      "prompt": "/city-weather:now New York",
+      "parameters": { "city": "New York" }
+    },
+    {
+      "title": "London Weather",
+      "prompt": "/city-weather:now London",
+      "parameters": { "city": "London" }
+    }
+  ]
+}

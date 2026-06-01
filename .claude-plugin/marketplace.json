@@ -1,0 +1,107 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rajiv-openhands-plugins",
+  "description": "Rajiv's personal OpenHands plugin marketplace for demos, repo work, and operator workflows",
+  "owner": {
+    "name": "Rajiv Shah"
+  },
+  "plugins": [
+    {
+      "name": "city-weather",
+      "source": "./plugins/city-weather",
+      "description": "Get current weather, time, and precipitation forecast for any city",
+      "version": "1.0.0",
+      "author": {
+        "name": "JP Shackelford"
+      },
+      "category": "utilities",
+      "tags": [
+        "weather",
+        "time",
+        "forecast",
+        "utilities"
+      ]
+    },
+    {
+      "name": "magic-test",
+      "source": "./plugins/magic-test",
+      "description": "A simple plugin-loading smoke test",
+      "version": "1.0.0",
+      "author": {
+        "name": "OpenHands Test"
+      },
+      "category": "utilities",
+      "tags": [
+        "test",
+        "smoke-test",
+        "verification"
+      ]
+    },
+    {
+      "name": "repo-primer",
+      "source": "./plugins/repo-primer",
+      "description": "Build a quick repo tour with architecture, entry points, and likely edit paths",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rajiv Shah"
+      },
+      "category": "developer-tools",
+      "tags": [
+        "repo",
+        "architecture",
+        "onboarding",
+        "codebase"
+      ]
+    },
+    {
+      "name": "incident-brief",
+      "source": "./plugins/incident-brief",
+      "description": "Turn raw issue context into an operator-friendly incident brief and next-step plan",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rajiv Shah"
+      },
+      "category": "operations",
+      "tags": [
+        "incident",
+        "ops",
+        "triage",
+        "status"
+      ]
+    },
+    {
+      "name": "release-ready",
+      "source": "./plugins/release-ready",
+      "description": "Create a rollout, validation, and rollback checklist for a change before shipping it",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rajiv Shah"
+      },
+      "category": "operations",
+      "tags": [
+        "release",
+        "rollout",
+        "qa",
+        "checklist"
+      ]
+    },
+    {
+      "name": "cs-web-issues",
+      "source": "./plugins/cs-web-issues",
+      "description": "Shared CS web issue response skill for triaging customer-facing web incidents from GitHub issues",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rajiv Shah"
+      },
+      "category": "operations",
+      "tags": [
+        "cs",
+        "customer-support",
+        "web",
+        "incident",
+        "github-issues",
+        "automation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cs-web-issues",
+  "version": "1.0.0",
+  "description": "Shared CS web issue response skill for triaging customer-facing web incidents from GitHub issues",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": [
+    "cs",
+    "customer-support",
+    "web",
+    "incident",
+    "github-issues",
+    "automation"
+  ]
+}

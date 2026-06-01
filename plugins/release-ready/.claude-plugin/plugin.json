@@ -1,0 +1,33 @@
+{
+  "name": "release-ready",
+  "version": "1.0.0",
+  "description": "Create a rollout, validation, and rollback checklist for a change before shipping it",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": ["release", "rollout", "deploy", "qa", "checklist"],
+  "parameters": {
+    "change": {
+      "type": "string",
+      "description": "Short description of the change being released",
+      "required": true,
+      "default": "pending product change"
+    }
+  },
+  "entry_command": "check",
+  "examples": [
+    {
+      "title": "Custom image rollout",
+      "prompt": "/release-ready:check enable custom sandbox image support for enterprise installs",
+      "parameters": { "change": "enable custom sandbox image support for enterprise installs" }
+    },
+    {
+      "title": "Plugin directory release",
+      "prompt": "/release-ready:check ship personal plugin marketplace support",
+      "parameters": { "change": "ship personal plugin marketplace support" }
+    }
+  ]
+}
