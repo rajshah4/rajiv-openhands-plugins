@@ -102,6 +102,25 @@
         "github-issues",
         "automation"
       ]
+    },
+    {
+      "name": "trade-ops-demo",
+      "source": "./plugins/trade-ops-demo",
+      "description": "Run and narrate the Rajistics trade operations agent demo",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rajiv Shah"
+      },
+      "category": "demos",
+      "tags": [
+        "trade-ops",
+        "rajistics",
+        "openhands",
+        "gmail",
+        "slack",
+        "laminar",
+        "demo"
+      ]
     }
   ]
 }

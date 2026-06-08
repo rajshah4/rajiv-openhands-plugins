@@ -1,0 +1,52 @@
+{
+  "name": "trade-ops-demo",
+  "version": "1.0.0",
+  "description": "Run and narrate the Rajistics trade operations agent demo",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": [
+    "trade-ops",
+    "rajistics",
+    "openhands",
+    "demo",
+    "gmail",
+    "slack",
+    "laminar"
+  ],
+  "parameters": {
+    "request": {
+      "type": "string",
+      "description": "Optional focus for the trade operations demo command",
+      "required": false,
+      "default": "trade operations demo"
+    }
+  },
+  "entry_command": "story",
+  "examples": [
+    {
+      "title": "Tell the demo story",
+      "prompt": "/trade-ops-demo:story",
+      "parameters": {
+        "request": "demo story"
+      }
+    },
+    {
+      "title": "Show current trade status",
+      "prompt": "/trade-ops-demo:status last day",
+      "parameters": {
+        "request": "last day"
+      }
+    },
+    {
+      "title": "Run the email-triggered demo",
+      "prompt": "/trade-ops-demo:run",
+      "parameters": {
+        "request": "send demo emails"
+      }
+    }
+  ]
+}

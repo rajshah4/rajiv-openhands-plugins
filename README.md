@@ -13,7 +13,9 @@ rajiv-openhands-plugins/
     ├── magic-test/
     ├── repo-primer/
     ├── incident-brief/
-    └── release-ready/
+    ├── release-ready/
+    ├── cs-web-issues/
+    └── trade-ops-demo/
 ```
 
 ## Included plugins
@@ -54,6 +56,21 @@ Example:
 
 ```text
 /release-ready:check enable custom sandbox image support for enterprise
+```
+
+### trade-ops-demo
+
+Use this when you want the agent to run, narrate, or check the Rajistics Trade
+Ops Agent demo from a plugin command.
+
+Examples:
+
+```text
+/trade-ops-demo:story
+/trade-ops-demo:status last day
+/trade-ops-demo:run
+/trade-ops-demo:preflight
+/trade-ops-demo:slack
 ```
 
 ## Marketplace source

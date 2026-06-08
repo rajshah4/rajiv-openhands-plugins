@@ -15,3 +15,5 @@ This repository hosts a personal plugin marketplace for OpenHands.
 - `repo-primer`
 - `incident-brief`
 - `release-ready`
+- `cs-web-issues`
+- `trade-ops-demo`
