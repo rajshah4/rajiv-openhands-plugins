@@ -1,0 +1,12 @@
+{
+  "name": "sessionstart-marker",
+  "version": "1.0.0",
+  "description": "Minimal SessionStart hook smoke test — writes a marker file to /tmp when the hook fires",
+  "author": {
+    "name": "Rajiv Shah"
+  },
+  "homepage": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "repository": "https://github.com/rajshah4/rajiv-openhands-plugins",
+  "license": "MIT",
+  "keywords": ["test", "sessionstart", "hook", "smoke-test", "marketplace"]
+}

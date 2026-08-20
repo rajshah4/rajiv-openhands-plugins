@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '%s\n' session-start-ran > /tmp/openhands_marketplace_sessionstart.marker",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
