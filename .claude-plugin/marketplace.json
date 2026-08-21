@@ -121,23 +121,6 @@
         "laminar",
         "demo"
       ]
-    },
-    {
-      "name": "sessionstart-marker",
-      "source": "./plugins/sessionstart-marker",
-      "description": "Minimal SessionStart hook smoke test — writes a marker file to /tmp when the hook fires",
-      "version": "1.0.0",
-      "author": {
-        "name": "Rajiv Shah"
-      },
-      "category": "test",
-      "tags": [
-        "test",
-        "sessionstart",
-        "hook",
-        "smoke-test",
-        "marketplace"
-      ]
     }
   ]
 }
